@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import {Counter} from 'productivitytools.learning.typescript.npmpackage'
+
 
 function App() {
   return (
     <div className="App">
-     hello
+     <Counter></Counter>
     </div>
   );
 }
